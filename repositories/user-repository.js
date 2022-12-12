@@ -16,9 +16,7 @@ class userRepository {
   async update(id, data) {
     return await this._repBase.update(id, {
       name: data.name,
-      age: data.age,
-      city: data.city,
-      state: data.state
+      email: data.email
     })
   }
 

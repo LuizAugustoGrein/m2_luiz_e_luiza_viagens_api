@@ -28,7 +28,6 @@ userController.prototype.put = async (req, res) => {
   let _validator = new validators()
 
   _validator.isRequired(req.body.name, 'Informe o seu nome')
-  _validator.isRequired(req.body.userName, 'Informe o seu nome de usuário')
   _validator.isRequired(req.body.email, 'Informe o seu email')
   _validator.isEmail(req.body.email, 'O email informado é inválido')
 

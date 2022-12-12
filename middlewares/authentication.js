@@ -6,7 +6,6 @@ module.exports = async (req, res, next) => {
   if (token) {
     try {
       let decoded = jwt.verify(token, config.secretKey)
-      console.log(decoded)
       req.usuarioLogado = decoded
       next()
     } catch (error) {

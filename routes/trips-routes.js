@@ -22,5 +22,5 @@ router.delete('/:id', auth, _ctrl.delete)
 
 // exportando o módulo
 module.exports = {
-  routes: router
+    routes: router
 }

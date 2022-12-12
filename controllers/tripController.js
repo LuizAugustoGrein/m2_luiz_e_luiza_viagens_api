@@ -24,9 +24,7 @@ tripController.prototype.post = async (req, res) => {
 tripController.prototype.put = async (req, res) => {
   let _validator = new validators()
 
-  _validator.isRequired(req.body.usuario, 'Informe o id do usuário')
   _validator.isRequired(req.body.ano, 'Informe o ano da viagem')
-  _validator.isRequired(req.body.estado, 'Informe o estado da viagem')
 
   ctrlBase.put(_repo, _validator, req, res)
 }

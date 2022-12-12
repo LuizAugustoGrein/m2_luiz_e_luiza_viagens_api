@@ -15,10 +15,7 @@ class tripRepository {
 
   async update(id, data) {
     return await this._repBase.update(id, {
-      name: data.name,
-      age: data.age,
-      city: data.city,
-      state: data.state
+        ano: data.ano
     })
   }
 
@@ -51,7 +48,6 @@ class tripRepository {
       .get()
       .then(snapshot => {
         snapshot.forEach(doc => {
-          console.log(doc.id, ' => ', doc.data())
           user = doc.data()
         })
       })
