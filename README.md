@@ -9,5 +9,5 @@ Comandos para executar o projeto:
 * npm install
 * npm start
 
-Repositório Front-end: https://github.com/LuizAugustoGrein/m2_luiz_e_luiza_viagens_frontend
-Repositório ChatBot: https://github.com/luizalorenco/m2_luiz_e_luiza_viagens
+#### Repositório Front-end: https://github.com/LuizAugustoGrein/m2_luiz_e_luiza_viagens_frontend
+#### Repositório ChatBot: https://github.com/luizalorenco/m2_luiz_e_luiza_viagens
