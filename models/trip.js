@@ -5,12 +5,14 @@ class Trip {
       id,
       usuario,
       ano,
-      estado
+      estado,
+      nome
     ) {
       this.id = id
       this.usuario = usuario
       this.ano = ano
       this.estado = estado
+      this.nome = nome
     }
   }
   

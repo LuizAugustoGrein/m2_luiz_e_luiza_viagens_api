@@ -51,7 +51,6 @@ class tripRepository {
       .get()
       .then(snapshot => {
         snapshot.forEach(doc => {
-          console.log(doc.id, ' => ', doc.data())
           user = doc.data()
         })
       })
